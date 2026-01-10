@@ -1,0 +1,150 @@
+
+.footer {
+  background-color: #000033; /* Darker navy */
+  color: white;
+  padding: 80px 0 30px;
+}
+
+
+.topSection {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1.5fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.brandCol .logo {
+  margin-bottom: 20px;
+}
+
+.footerLogoImage {
+  object-fit: contain;
+  width: auto;
+  height: 60px;
+  max-width: 180px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.logoText {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  line-height: 1;
+}
+
+.logoSubText {
+  font-size: 10px;
+  color: var(--color-saffron);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+.colTitle {
+  color: white;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.linksList {
+  list-style: none;
+}
+
+.linksList li {
+  margin-bottom: 12px;
+}
+
+.linksList a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s ease;
+}
+
+.linksList a:hover {
+  color: var(--color-saffron);
+}
+
+.contactCol p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.socialIcons span {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.socialIcons span:hover {
+  background: var(--color-saffron);
+}
+
+.divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.govtDisclaimer {
+  display: flex;
+  align-items: center;
+}
+
+.govtDisclaimer::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Emulate flag/emblem */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .topSection {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .topSection {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .bottomSection {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}

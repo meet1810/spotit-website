@@ -1,40 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# SPOT IT – Swachh Bharat Mission Initiative Website
 
-## Getting Started
+![SPOT IT Logo](public/assets/spot-it-logo.png)
 
-First, run the development server:
+**SPOT IT** is a modern, responsive landing page for a government initiative aimed at encouraging citizens to report cleanliness issues in their neighborhoods. This project features a premium design with a patriotic color palette (Saffron, White, Green, Navy) and advanced UI elements like glassmorphism, 3D mockups, and smooth animations.
+
+## 🚀 Features
+
+- **Premium Hero Section**: A vibrant, attention-grabbing introduction with sophisticated gradients and floating 3D elements.
+- **Interactive "How It Works"**: A visual timeline guiding users through the reporting process using clear iconography and animations.
+- **Mission & Vision**: An informative "About Us" section highlighting the initiative's goals with statistical counters.
+- **Realistic App Mockup**: A custom-coded, responsive 3D mobile phone representation showcasing the app interface.
+- **Fully Responsive**: Optimized for all devices, from large desktop screens to mobile phones.
+- **Modern Tech Stack**: Built with Next.js and styled with modular CSS for performance and maintainability.
+
+## 🛠️ Technology Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (React 19)
+- **Styling**: CSS Modules with CSS Variables for consistent theming.
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (Material Design & Font Awesome).
+- **Fonts**: [Geist](https://vercel.com/font) (Optimized font loading).
+- **Assets**: Custom 3D-style CSS assets and optimized images.
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+spotit-website/
+├── public/             # Static assets (images, logos)
+├── src/
+│   ├── components/     # Reusable React components
+│   │   ├── home/       # Homepage-specific sections (Hero, About, etc.)
+│   │   ├── Footer.js   # Site footer
+│   │   └── Header.js   # Sticky navigation header
+│   ├── pages/          # Next.js pages (Route handlers)
+│   └── styles/         # CSS Modules and global styles
+└── package.json        # Project dependencies and scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏁 Getting Started
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Follow these steps to set up the project locally.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/spotit-website.git
+   cd spotit-website
+   ```
 
-## Learn More
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Color Palette
 
-## Deploy on Vercel
+The design strictly adheres to the following brand colors:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Saffron**: `#FF9933` (Warmth, Energy)
+- **White**: `#FFFFFF` (Clarity, Cleanliness)
+- **Green**: `#138808` (Growth, Nature)
+- **Navy Blue**: `#000080` (Trust, Authority)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
