@@ -1,6 +1,6 @@
 # SPOT IT – Swachh Bharat Mission Initiative Website
 
-![SPOT IT Logo](public/assets/spot-it-logo.png)
+![SPOT IT Logo](public/spot-it-logo.png)
 
 **SPOT IT** is a modern, responsive landing page for a government initiative aimed at encouraging citizens to report cleanliness issues in their neighborhoods. This project features a premium design with a patriotic color palette (Saffron, White, Green, Navy) and advanced UI elements like glassmorphism, 3D mockups, and smooth animations.
 
