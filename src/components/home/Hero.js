@@ -7,9 +7,12 @@ import styles from '../../styles/Hero.module.css';
 export default function Hero() {
   return (
     <section className={styles.heroSection}>
-      {/* Abstract Background Shapes */}
-      <div className={styles.shape1}></div>
-      <div className={styles.shape2}></div>
+      {/* Indian Flag Color Smoke Animation */}
+      <div className={styles.smokeContainer}>
+        <div className={`${styles.smoke} ${styles.smokeSaffron}`}></div>
+        <div className={`${styles.smoke} ${styles.smokeWhite}`}></div>
+        <div className={`${styles.smoke} ${styles.smokeGreen}`}></div>
+      </div>
 
       <div className={`container ${styles.heroContainer}`}>
         <div className={styles.heroContent}>
